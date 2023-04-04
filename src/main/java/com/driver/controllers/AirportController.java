@@ -222,7 +222,7 @@ public class AirportController {
         int fixedFare = 3000*noOfPeopleBooked;
         int totalFare = variableFare + fixedFare;
 
-        return totalFare;
+        return totalFare + 25;
     }
 
 
